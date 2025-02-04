@@ -5,8 +5,15 @@ body {
 
 nav {
     padding: 10px;
-    background-color: blue;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    border: solid black 3px;
+    border-radius: 30px;
+    background-color: lightgreen;
 }
