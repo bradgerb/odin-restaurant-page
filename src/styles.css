@@ -3,7 +3,7 @@ body {
     background-color: peachpuff;
 }
 
-nav {
+nav, .footer {
     padding: 10px;
     background-color: lightblue;
     display: flex;
@@ -28,18 +28,39 @@ nav {
 
 .bubble {
     margin: 10px;
+    padding: 15px;
     width: 50%;
     border: solid blue 8px;
     border-radius: 30px;
     font-size: large;
-    font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: lightblue;
+}
+
+.larger {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sig {
+    font-size: small;
+    font-weight: bold;
+    align-self: end;
 }
 
 .title {
     width: 70%;
     font-size: xx-large;
     font-weight: bolder;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: calc(100vw - 20px);
+    font-size: small;
 }
