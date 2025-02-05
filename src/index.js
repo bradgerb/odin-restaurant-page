@@ -4,3 +4,4 @@ import { homepage } from "./homepage-content.js";
 import { menu } from "./menu-content.js";
 
 // homepage();
+menu();
