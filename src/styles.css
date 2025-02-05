@@ -50,6 +50,10 @@ nav, .footer {
     text-decoration: underline;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .sig {
     font-size: small;
     font-weight: bold;
@@ -62,6 +66,15 @@ nav, .footer {
     font-weight: bolder;
     display: flex;
     justify-content: center;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic ;
 }
 
 .footer {
