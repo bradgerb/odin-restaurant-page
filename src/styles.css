@@ -50,6 +50,10 @@ nav, .footer {
     text-decoration: underline;
 }
 
+.smaller {
+    font-size: small;
+}
+
 .underline {
     text-decoration: underline;
 }
