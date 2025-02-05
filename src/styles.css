@@ -60,6 +60,8 @@ nav, .footer {
     width: 70%;
     font-size: xx-large;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
