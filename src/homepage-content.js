@@ -1,4 +1,4 @@
-const homepage = ()=> {
+const homePage = ()=> {
     const contentContainer = document.getElementById("content");
 
     const titleContent = document.createElement("div");
@@ -60,4 +60,4 @@ const homepage = ()=> {
     contentContainer.appendChild(testimonialContent);
 };
 
-export {homepage};
+export {homePage};

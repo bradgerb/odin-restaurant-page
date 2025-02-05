@@ -1,7 +1,7 @@
  import lightJar from "../img/lightJar.jpg";
  import lemonCleaner from "../img/lemonCleaner.jpg";
  
- const menu = ()=> {
+ const menuPage = ()=> {
     const contentContainer = document.getElementById("content");
 
     const titleContent = document.createElement("div");
@@ -90,4 +90,4 @@
     contentContainer.appendChild(foodContent);
 };
 
-export {menu};
+export {menuPage};

@@ -1,4 +1,4 @@
-const contact = ()=> {
+const contactPage = ()=> {
     const contentContainer = document.getElementById("content");
 
     const titleContent = document.createElement("div");
@@ -19,4 +19,4 @@ const contact = ()=> {
     contentContainer.appendChild(contactOne);
 }
 
-export {contact};
+export {contactPage};

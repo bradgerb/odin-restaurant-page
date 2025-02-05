@@ -1,9 +1,17 @@
 // index.js
 import "./styles.css";
-import { homepage } from "./homepage-content.js";
-import { menu } from "./menu-content.js";
-import { contact } from "./contact-content.js";
+import { homePage } from "./homepage-content.js";
+import { menuPage } from "./menu-content.js";
+import { contactPage } from "./contact-content.js";
+
+const nav = (function () {
+    const home = document.querySelector(".home");
+    home.addEventListener("click", homePage);
+
+    const menu = document.querySelector(".menu");
+    menu.addEventListener("click", menuPage);
+})();
 
 // homepage();
 // menu();
-contact();
+// contact();
