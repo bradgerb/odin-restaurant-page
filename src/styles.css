@@ -8,6 +8,7 @@ nav, .footer {
     background-color: lightblue;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -15,15 +16,18 @@ nav, .footer {
     padding: 10px 15px;
     border: solid black 3px;
     border-radius: 30px;
-    background-color: lightgreen;
+    background-color: lightcoral;
 }
 
 #content {
-    margin: 25px 20vw 61px 20vw;
+    margin: 0 20vw;
+    padding-bottom: 36px;
+    min-height: calc(100vh - 97px);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: lightcoral;
 }
 
 .bubble {
