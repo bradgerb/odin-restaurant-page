@@ -22,7 +22,7 @@ nav, .footer {
 #content {
     margin: 0 20vw;
     padding-bottom: 36px;
-    min-height: calc(100vh - 97px);
+    min-height: calc(100vh - 98px);
     display: flex;
     flex-direction: column;
     justify-content: center;
