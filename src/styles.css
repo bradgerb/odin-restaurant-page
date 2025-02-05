@@ -86,4 +86,9 @@ nav, .footer {
     bottom: 0px;
     width: calc(100vw - 20px);
     font-size: small;
+    border-top: solid black 1px;
+}
+
+nav {
+    border-bottom: solid black 1px;
 }
