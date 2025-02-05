@@ -10,8 +10,7 @@ const nav = (function () {
 
     const menu = document.querySelector(".menu");
     menu.addEventListener("click", menuPage);
-})();
 
-// homepage();
-// menu();
-// contact();
+    const contact = document.querySelector(".contact");
+    contact.addEventListener("click", contactPage);
+})();
